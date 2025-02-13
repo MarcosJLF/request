@@ -36,5 +36,3 @@ def put(send):
 def delete(URL):
     response = requests.delete(URL['delete'])
     print(response.json())
-
-delete(URL)
